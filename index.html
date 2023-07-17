@@ -277,9 +277,13 @@
                     cursor: pointer;
                 }
 
-            #schedule-container {
+            #time{
                 flex-basis: 30%;
                 flex-shrink: 0;
+            }
+
+            #schedule-container {
+                
                 padding: 1%;
                 border: 1px solid #ccc;
                 background-color: #f9f9f9;
@@ -582,11 +586,14 @@
                     cursor: pointer;
                 }
 
+            #time{
+                order: 1;
+            }
+
             #schedule-container {
                 padding: 1%;
                 border: 1px solid #ccc;
                 background-color: #f9f9f9;
-                order: 1;
                 
             }
 
@@ -663,7 +670,10 @@
 			</div>
 		</div>
         </div>
-		<div id="schedule-container"></div>
+        <div id="time">
+            <div id="result"></div>
+            <div id="schedule-container"></div>
+        </div>
 	</main>
 
 	<script>
@@ -1008,7 +1018,10 @@
 			console.log(Class_time + 1)
 			console.log(currentTime)
 			console.log(currentTime_M)
-			console.log(zero_room)
+            console.log(zero_room)
+
+            var resultElement = document.getElementById("result");
+            resultElement.textContent = YOU[Days] + "曜日, " + (Class_time + 1) + "時限目, " + currentTime + "時" + currentTime_M + "分";
 
 			//曜日>>時間>>使用したい教室データ..(321, 325)>>for{if{}}で使いたいインスタンス使用する。それ以外の教室インスタンスは白のオーバーレイを使用
 
