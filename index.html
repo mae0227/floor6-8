@@ -3,759 +3,1169 @@
 <html>
 <head>
 
-  <title>6_8</title>
-  <style>
-    #image-container {
-      display: inline-block;
-      position: relative;
-    }
+    <title>6_8</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @media screen and (min-width: 930px) {
+            #image-container {
+                display: inline-block;
+                position: relative;
+                
+            }
 
-/* ここも部屋の数に応じて増やさなければいけない top: y, left: x*/
-#overlay6104 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 45px;
-	 top: 440px;
-	 width: 10.886500%;
-	 height: 8.261800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6103 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 225px;
-	 top: 442px;
-	 width: 11.353000%;
-	 height: 8.047200%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6102 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 375px;
-	 top: 444px;
-	 width: 11.042000%;
-	 height: 7.939900%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6101 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 517px;
-	 top: 442px;
-	 width: 11.664100%;
-	 height: 8.047200%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6100 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 715px;
-	 top: 440px;
-	 width: 10.575400%;
-	 height: 7.939900%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8101 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 863px;
-	 top: 406px;
-	 width: 24.883400%;
-	 height: 9.978500%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6205 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 47px;
-	 top: 902px;
-	 width: 10.575400%;
-	 height: 4.828300%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6203C {
-	 display: inline-block;
-	 position: absolute;
-	 left: 227px;
-	 top: 906px;
-	 width: 11.042000%;
-	 height: 4.506400%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8201 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 851px;
-	 top: 848px;
-	 width: 11.975100%;
-	 height: 7.832600%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8203 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 1005px;
-	 top: 846px;
-	 width: 14.152400%;
-	 height: 7.832600%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6208 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 44px;
-	 top: 818px;
-	 width: 4.821200%;
-	 height: 3.862700%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6207 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 110px;
-	 top: 798px;
-	 width: 5.598800%;
-	 height: 5.150200%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6202B {
-	 display: inline-block;
-	 position: absolute;
-	 left: 370px;
-	 top: 838px;
-	 width: 5.754300%;
-	 height: 8.047200%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6202A {
-	 display: inline-block;
-	 position: absolute;
-	 left: 446px;
-	 top: 838px;
-	 width: 5.909800%;
-	 height: 8.154500%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6201D {
-	 display: inline-block;
-	 position: absolute;
-	 left: 522px;
-	 top: 840px;
-	 width: 4.043500%;
-	 height: 8.261800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6201A {
-	 display: inline-block;
-	 position: absolute;
-	 left: 576px;
-	 top: 842px;
-	 width: 6.687400%;
-	 height: 8.261800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6200A {
-	 display: inline-block;
-	 position: absolute;
-	 left: 714px;
-	 top: 808px;
-	 width: 10.264400%;
-	 height: 9.978500%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6330 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 300px;
-	 top: 1339px;
-	 width: 5.365500%;
-	 height: 4.345500%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6410 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 445px;
-	 top: 1618px;
-	 width: 5.598800%;
-	 height: 4.291800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay6428 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 116px;
-	 top: 1616px;
-	 width: 5.287700%;
-	 height: 4.452800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8311 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 1042px;
-	 top: 1221px;
-	 width: 5.676500%;
-	 height: 4.291800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8313 {
-	 display: inline-block;
-	 position: absolute;
-	 left: 1115px;
-	 top: 1219px;
-	 width: 5.676500%;
-	 height: 4.452800%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8312A {
-	 display: inline-block;
-	 position: absolute;
-	 left: 1043px;
-	 top: 1340px;
-	 width: 6.376400%;
-	 height: 4.399100%;
-	 mix-blend-mode: multiply;
-	 }
-	#overlay8312B {
-	 display: inline-block;
-	 position: absolute;
-	 left: 1128px;
-	 top: 1340px;
-	 width: 4.587900%;
-	 height: 4.345500%;
-	 mix-blend-mode: multiply;
-	 }
+            /* ここも部屋の数に応じて増やさなければいけない top: y, left: x*/
+            #overlay6104 {
+                display: inline-block;
+                position: absolute;
+                left: 3.6%;
+                top: 23.5%;
+                width: 10.886500%;
+                height: 8.261800%;
+                mix-blend-mode: multiply;
+            }
 
-	 #schedule-container {
-      position: absolute;
-      top: 20px;
-      left: 800px;
-      width: 400px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
-    }
+            #overlay6103 {
+                display: inline-block;
+                position: absolute;
+                left: 17.5%;
+                top: 23.5%;
+                width: 11.353000%;
+                height: 8.047200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6102 {
+                display: inline-block;
+                position: absolute;
+                left: 29%;
+                top: 23.5%;
+                width: 11.042000%;
+                height: 7.939900%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6101 {
+                display: inline-block;
+                position: absolute;
+                left: 40.3%;
+                top: 23.5%;
+                width: 11.664100%;
+                height: 8.047200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6100 {
+                display: inline-block;
+                position: absolute;
+                left: 55.8%;
+                top: 23.5%;
+                width: 10.575400%;
+                height: 7.939900%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8101 {
+                display: inline-block;
+                position: absolute;
+                left: 67.2%;
+                top: 21.5%;
+                width: 24.883400%;
+                height: 9.978500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6205 {
+                display: inline-block;
+                position: absolute;
+                left: 3.4%;
+                top: 48.3%;
+                width: 10.575400%;
+                height: 4.828300%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6203C {
+                display: inline-block;
+                position: absolute;
+                left: 17.5%;
+                top: 48.3%;
+                width: 11.042000%;
+                height: 4.506400%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8201 {
+                display: inline-block;
+                position: absolute;
+                left: 66.5%;
+                top: 45%;
+                width: 11.675100%;
+                height: 7.832600%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8203 {
+                display: inline-block;
+                position: absolute;
+                left: 78.5%;
+                top: 45%;
+                width: 14.152400%;
+                height: 7.832600%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6208 {
+                display: inline-block;
+                position: absolute;
+                left: 3.3%;
+                top: 44%;
+                width: 4.821200%;
+                height: 3.862700%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6207 {
+                display: inline-block;
+                position: absolute;
+                left: 9%;
+                top: 43%;
+                width: 5.598800%;
+                height: 5.150200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6202B {
+                display: inline-block;
+                position: absolute;
+                left: 28.6%;
+                top: 45%;
+                width: 5.754300%;
+                height: 8.047200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6202A {
+                display: inline-block;
+                position: absolute;
+                left: 34.5%;
+                top: 45%;
+                width: 5.909800%;
+                height: 8.154500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6201D {
+                display: inline-block;
+                position: absolute;
+                left: 40.4%;
+                top: 45%;
+                width: 4.043500%;
+                height: 8.261800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6201A {
+                display: inline-block;
+                position: absolute;
+                left: 44.8%;
+                top: 45%;
+                width: 6.687400%;
+                height: 8.261800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6200A {
+                display: inline-block;
+                position: absolute;
+                left: 55.5%;
+                top: 43%;
+                width: 10.264400%;
+                height: 9.978500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6330 {
+                display: inline-block;
+                position: absolute;
+                left: 23.5%;
+                top: 71.5%;
+                width: 5.365500%;
+                height: 4.345500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6410 {
+                display: inline-block;
+                position: absolute;
+                left: 34.5%;
+                top: 86.3%;
+                width: 5.598800%;
+                height: 4.291800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6428 {
+                display: inline-block;
+                position: absolute;
+                left: 9%;
+                top: 86.3%;
+                width: 5.287700%;
+                height: 4.452800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8311 {
+                display: inline-block;
+                position: absolute;
+                left: 81%;
+                top: 65%;
+                width: 5.676500%;
+                height: 4.291800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8313 {
+                display: inline-block;
+                position: absolute;
+                left: 86.6%;
+                top: 65%;
+                width: 5.676500%;
+                height: 4.452800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8312A {
+                display: inline-block;
+                position: absolute;
+                left: 81%;
+                top: 71.5%;
+                width: 6.376400%;
+                height: 4.399100%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8312B {
+                display: inline-block;
+                position: absolute;
+                left: 88%;
+                top: 71.5%;
+                width: 4.587900%;
+                height: 4.345500%;
+                mix-blend-mode: multiply;
+            }
+
+            #schedule-container {
+                padding: 1%;
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
+            }
+
+            #header {
+                display: flex;
+                background-color: rgba(46,86,160,255);
+                color: #fff;
+                margin-bottom: 1%;
+            }
+
+            #site-name {
+                font-size: 120%;
+                font-weight: bold;
+                margin: auto;
+            }
+
+                #site-name:hover {
+                    cursor: pointer;
+                }
+
+            #schedule-container {
+                flex-basis: 30%;
+                flex-shrink: 0;
+                padding: 1%;
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
+            }
+
+                #schedule-container th {
+                    white-space: nowrap;
+                }
+
+            #main {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+
+            #image {
+                max-width: 100%;
+                height: auto;
+            }
+
+            #map-image{
+                height: 100vh;
+                overflow: auto;
+            }
+
+            /*#image-container div{
+                background-color: rgba(255,0,0,0.5);
+            }*/
+        }
+
+
+        @media screen and (max-width: 930px) {
+            #image-container {
+                display: inline-block;
+                position: relative;
+          
+            }
+
+            /* ここも部屋の数に応じて増やさなければいけない top: y, left: x*/
+            #overlay6104 {
+                display: inline-block;
+                position: absolute;
+                left: 3.6%;
+                top: 23.5%;
+                width: 10.886500%;
+                height: 8.261800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6103 {
+                display: inline-block;
+                position: absolute;
+                left: 17.5%;
+                top: 23.5%;
+                width: 11.353000%;
+                height: 8.047200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6102 {
+                display: inline-block;
+                position: absolute;
+                left: 29%;
+                top: 23.5%;
+                width: 11.042000%;
+                height: 7.939900%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6101 {
+                display: inline-block;
+                position: absolute;
+                left: 40.3%;
+                top: 23.5%;
+                width: 11.664100%;
+                height: 8.047200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6100 {
+                display: inline-block;
+                position: absolute;
+                left: 55.8%;
+                top: 23.5%;
+                width: 10.575400%;
+                height: 7.939900%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8101 {
+                display: inline-block;
+                position: absolute;
+                left: 67.2%;
+                top: 21.5%;
+                width: 24.883400%;
+                height: 9.978500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6205 {
+                display: inline-block;
+                position: absolute;
+                left: 3.4%;
+                top: 48.3%;
+                width: 10.575400%;
+                height: 4.828300%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6203C {
+                display: inline-block;
+                position: absolute;
+                left: 17.5%;
+                top: 48.3%;
+                width: 11.042000%;
+                height: 4.506400%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8201 {
+                display: inline-block;
+                position: absolute;
+                left: 66.5%;
+                top: 45%;
+                width: 11.675100%;
+                height: 7.832600%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8203 {
+                display: inline-block;
+                position: absolute;
+                left: 78.5%;
+                top: 45%;
+                width: 14.152400%;
+                height: 7.832600%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6208 {
+                display: inline-block;
+                position: absolute;
+                left: 3.3%;
+                top: 44%;
+                width: 4.821200%;
+                height: 3.862700%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6207 {
+                display: inline-block;
+                position: absolute;
+                left: 9%;
+                top: 43%;
+                width: 5.598800%;
+                height: 5.150200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6202B {
+                display: inline-block;
+                position: absolute;
+                left: 28.6%;
+                top: 45%;
+                width: 5.754300%;
+                height: 8.047200%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6202A {
+                display: inline-block;
+                position: absolute;
+                left: 34.5%;
+                top: 45%;
+                width: 5.909800%;
+                height: 8.154500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6201D {
+                display: inline-block;
+                position: absolute;
+                left: 40.4%;
+                top: 45%;
+                width: 4.043500%;
+                height: 8.261800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6201A {
+                display: inline-block;
+                position: absolute;
+                left: 44.8%;
+                top: 45%;
+                width: 6.687400%;
+                height: 8.261800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6200A {
+                display: inline-block;
+                position: absolute;
+                left: 55.5%;
+                top: 43%;
+                width: 10.264400%;
+                height: 9.978500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6330 {
+                display: inline-block;
+                position: absolute;
+                left: 23.5%;
+                top: 71.5%;
+                width: 5.365500%;
+                height: 4.345500%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6410 {
+                display: inline-block;
+                position: absolute;
+                left: 34.5%;
+                top: 85.9%;
+                width: 5.598800%;
+                height: 4.291800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay6428 {
+                display: inline-block;
+                position: absolute;
+                left: 9%;
+                top: 85.9%;
+                width: 5.287700%;
+                height: 4.452800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8311 {
+                display: inline-block;
+                position: absolute;
+                left: 81%;
+                top: 65%;
+                width: 5.676500%;
+                height: 4.291800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8313 {
+                display: inline-block;
+                position: absolute;
+                left: 86.6%;
+                top: 65%;
+                width: 5.676500%;
+                height: 4.452800%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8312A {
+                display: inline-block;
+                position: absolute;
+                left: 81%;
+                top: 71.5%;
+                width: 6.376400%;
+                height: 4.399100%;
+                mix-blend-mode: multiply;
+            }
+
+            #overlay8312B {
+                display: inline-block;
+                position: absolute;
+                left: 88%;
+                top: 71.5%;
+                width: 4.587900%;
+                height: 4.345500%;
+                mix-blend-mode: multiply;
+            }
+
+            #schedule-container {
+                padding: 10px;
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
+            }
+
+            #header {
+                display: flex;
+                background-color: rgba(46,86,160,255);
+                color: #fff;
+                margin-bottom: 1%;
+            }
+
+            #site-name {
+                font-size: 120%;
+                font-weight: bold;
+                margin: auto;
+            }
+
+                #site-name:hover {
+                    cursor: pointer;
+                }
+
+            #schedule-container {
+                padding: 1%;
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
+                order: 1;
+                
+            }
+
+                #schedule-container th {
+                    white-space: nowrap;
+                }
+
+            #main {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #map-image {
+                height: 100vh;
+                overflow: auto;
+                order: 2;
+            }
+
+            #image {
+                max-width: 100%;
+                height: auto;
+            }
+
+            /*#image-container div {
+                background-color: rgba(255,0,0,0.5);
+            }*/
+        }
 
 
 
-    /*数十個のoverlayを作成する。もしかしたらoverlayの上限があるかもしれない
+        /*数十個のoverlayを作成する。もしかしたらoverlayの上限があるかもしれない
         #overlayn {
 
         }
         */
-  </style>
+    </style>
 </head>
 <body>
-	<div id="image-container">
-    	<img id="image" src="6_8.png">
-	
-		<div id="room6_8">
-			<div id="overlay6104"></div>
-			<div id="overlay6103"></div>
-			<div id="overlay6102"></div>
-			<div id="overlay6101"></div>
-			<div id="overlay6100"></div>
-			<div id="overlay8101"></div>
-			<div id="overlay6205"></div>
-			<div id="overlay6203C"></div>
-			<div id="overlay8201"></div>
-			<div id="overlay8203"></div>
-			<div id="overlay6208"></div>
-			<div id="overlay6207"></div>
-			<div id="overlay6202B"></div>
-			<div id="overlay6202A"></div>
-			<div id="overlay6201D"></div>
-			<div id="overlay6201A"></div>
-			<div id="overlay6200A"></div>
-			<div id="overlay6330"></div>
-			<div id="overlay6410"></div>
-			<div id="overlay6428"></div>
-			<div id="overlay8311"></div>
-			<div id="overlay8313"></div>
-			<div id="overlay8312A"></div>
-			<div id="overlay8312B"></div>
-		</div>	
- 	</div>
+	<header id="header">
+		<div id="site-name">
+			<p>鳩キャン教室ナビ</p>
+		</div>
+	</header>
+	<main id="main">
+        <div id="map-image">
+		<div id="image-container">
+			<img id="image" src="6_8.png">
 
-	<div id="schedule-container"></div>
+			<div id="room6_8">
+				<div id="overlay6104"></div>
+				<div id="overlay6103"></div>
+				<div id="overlay6102"></div>
+				<div id="overlay6101"></div>
+				<div id="overlay6100"></div>
+				<div id="overlay8101"></div>
+				<div id="overlay6205"></div>
+				<div id="overlay6203C"></div>
+				<div id="overlay8201"></div>
+				<div id="overlay8203"></div>
+				<div id="overlay6208"></div>
+				<div id="overlay6207"></div>
+				<div id="overlay6202B"></div>
+				<div id="overlay6202A"></div>
+				<div id="overlay6201D"></div>
+				<div id="overlay6201A"></div>
+				<div id="overlay6200A"></div>
+				<div id="overlay6330"></div>
+				<div id="overlay6410"></div>
+				<div id="overlay6428"></div>
+				<div id="overlay8311"></div>
+				<div id="overlay8313"></div>
+				<div id="overlay8312A"></div>
+				<div id="overlay8312B"></div>
+			</div>
+		</div>
+        </div>
+		<div id="schedule-container"></div>
+	</main>
 
-  <script>
+	<script>
+        document.getElementById("site-name").onclick = function () {
+            location.href = "https://mae0227.github.io/top/";
+        }
     // 画像の一部の色を変える関数
-    // ここで階層データを作りたい ex 曜日[時限[教室番号]]　　ゆくゆくはExcelのデータから自動的にとりた
-    // CSVファイルを取得
-      let csv = new XMLHttpRequest();
-      
-      // CSVファイルへのパス
-      csv.open("GET", "6_8.csv", false);
-        
-      // csvファイル読み込み失敗時のエラー対応
-      try {
-        csv.send(null);
-      } catch (err) {
-        console.log(err);
-      }
-        
-      // 配列を定義
-      let csvArray = [];
-        
-      // 改行ごとに配列化
-      let lines = csv.responseText.split(/\r\n|\n/);
-        
-      // 1行ごとに処理
-      for (let i = 0; i < lines.length; ++i) {
-        let cells = lines[i].split(",");
-        if (cells.length != 1) {
-          csvArray.push(cells);
-        }
-      }
-      // コンソールに配列を出力
+		// ここで階層データを作りたい ex 曜日[時限[教室番号]]　　ゆくゆくはExcelのデータから自動的にとりた
+		// CSVファイルを取得
+		let csv = new XMLHttpRequest();
 
-	  function displaySchedule(classroom) {
-      var scheduleContainer = document.getElementById("schedule-container");
-      scheduleContainer.innerHTML = ""; // 内容をクリア
+		// CSVファイルへのパス
+		csv.open("GET", "6_8.csv", false);
 
-      var scheduleInfo = [];
+		// csvファイル読み込み失敗時のエラー対応
+		try {
+			csv.send(null);
+		} catch (err) {
+			console.log(err);
+		}
 
-      for (var i = 1; i <= 5; i++) {
-        for (var j = 0; j < csvArray.length; j++) {
-          var day = parseInt(csvArray[j][1]);
-          var classTime = parseInt(csvArray[j][2]);
-          var classroomNum = parseInt(csvArray[j][7]);
+		// 配列を定義
+		let csvArray = [];
 
-          if (day == Days + 1 && classTime == i && classroomNum == classroom) {
-            scheduleInfo.push(csvArray[j]);
-          }
-        }
-      }
+		// 改行ごとに配列化
+		let lines = csv.responseText.split(/\r\n|\n/);
 
-	if (scheduleInfo.length === 0) {
-    	var noScheduleMessage = document.createElement("p");
-    	noScheduleMessage.textContent = "本日使用予定の授業はありません";
-    	scheduleContainer.appendChild(noScheduleMessage);
-    	return;
-  	}
-      var scheduleTable = document.createElement("table");
-      scheduleTable.classList.add("schedule-table");
+		// 1行ごとに処理
+		for (let i = 0; i < lines.length; ++i) {
+			let cells = lines[i].split(",");
+			if (cells.length != 1) {
+				csvArray.push(cells);
+			}
+		}
+		// コンソールに配列を出力
 
-      var tableHeader = document.createElement("tr");
+		function displaySchedule(classroom) {
+			var scheduleContainer = document.getElementById("schedule-container");
+			scheduleContainer.innerHTML = ""; // 内容をクリア
 
-      var tableHeaderTime = document.createElement("th");
-      tableHeaderTime.textContent = "時限";
-      tableHeader.appendChild(tableHeaderTime);
+			var scheduleInfo = [];
 
-      var tableHeaderSubject = document.createElement("th");
-      tableHeaderSubject.textContent = "科目";
-      tableHeader.appendChild(tableHeaderSubject);
+			for (var i = 1; i <= 5; i++) {
+				for (var j = 0; j < csvArray.length; j++) {
+					var day = parseInt(csvArray[j][1]);
+					var classTime = parseInt(csvArray[j][2]);
+					var classroomNum = parseInt(csvArray[j][7]);
 
-      scheduleTable.appendChild(tableHeader);
+					if (day == Days + 1 && classTime == i && classroomNum == classroom) {
+						scheduleInfo.push(csvArray[j]);
+					}
+				}
+			}
 
-      for (var k = 0; k < scheduleInfo.length; k++) {
-        var scheduleRow = document.createElement("tr");
+			if (scheduleInfo.length === 0) {
+				var noScheduleMessage = document.createElement("p");
+				noScheduleMessage.textContent = "本日使用予定の授業はありません";
+				scheduleContainer.appendChild(noScheduleMessage);
+				return;
+			}
+			var scheduleTable = document.createElement("table");
+			scheduleTable.classList.add("schedule-table");
 
-        var timeCell = document.createElement("td");
-        timeCell.textContent = scheduleInfo[k][2];
-        scheduleRow.appendChild(timeCell);
+			var tableHeader = document.createElement("tr");
 
-        var subjectCell = document.createElement("td");
-        subjectCell.textContent = scheduleInfo[k][0];
-        scheduleRow.appendChild(subjectCell);
+			var tableHeaderTime = document.createElement("th");
+			tableHeaderTime.textContent = "時限";
+			tableHeader.appendChild(tableHeaderTime);
 
-        scheduleTable.appendChild(scheduleRow);
-      }
+			var tableHeaderSubject = document.createElement("th");
+			tableHeaderSubject.textContent = "科目";
+			tableHeader.appendChild(tableHeaderSubject);
 
-      scheduleContainer.appendChild(scheduleTable);
-    }
+			scheduleTable.appendChild(tableHeader);
 
-	function addClickListeners() {
-    	var overlay6104 = document.getElementById("overlay6104");
-    	var overlay6103 = document.getElementById("overlay6103");
-    	var overlay6102 = document.getElementById("overlay6102");
-    	var overlay6101 = document.getElementById("overlay6101");
-    	var overlay6100 = document.getElementById("overlay6100");
-    	var overlay8101 = document.getElementById("overlay8101");
-    	var overlay6205 = document.getElementById("overlay6205");
-    	var overlay6203C = document.getElementById("overlay6203C");
-    	var overlay8201 = document.getElementById("overlay8201");
-    	var overlay8203 = document.getElementById("overlay8203");
-    	var overlay6208 = document.getElementById("overlay6208");
-    	var overlay6207 = document.getElementById("overlay6207");
-		var overlay6202B = document.getElementById("overlay6202B");
-    	var overlay6202A = document.getElementById("overlay6202A");
-    	var overlay6201D = document.getElementById("overlay6201D");
-    	var overlay6201A = document.getElementById("overlay6201A");
-    	var overlay6200A = document.getElementById("overlay6200A");
-    	var overlay6330 = document.getElementById("overlay6330");
-    	var overlay6410 = document.getElementById("overlay6410");
-    	var overlay6428 = document.getElementById("overlay6428");
-    	var overlay8311 = document.getElementById("overlay8311");
-    	var overlay8313 = document.getElementById("overlay8313");
-    	var overlay8312A = document.getElementById("overlay8312A");
-    	var overlay8312B = document.getElementById("overlay8312B");
+			for (var k = 0; k < scheduleInfo.length; k++) {
+				var scheduleRow = document.createElement("tr");
+
+				var timeCell = document.createElement("td");
+				timeCell.textContent = scheduleInfo[k][2];
+				scheduleRow.appendChild(timeCell);
+
+				var subjectCell = document.createElement("td");
+				subjectCell.textContent = scheduleInfo[k][0];
+				scheduleRow.appendChild(subjectCell);
+
+				scheduleTable.appendChild(scheduleRow);
+			}
+
+			scheduleContainer.appendChild(scheduleTable);
+		}
+
+		function addClickListeners() {
+			var overlay6104 = document.getElementById("overlay6104");
+			var overlay6103 = document.getElementById("overlay6103");
+			var overlay6102 = document.getElementById("overlay6102");
+			var overlay6101 = document.getElementById("overlay6101");
+			var overlay6100 = document.getElementById("overlay6100");
+			var overlay8101 = document.getElementById("overlay8101");
+			var overlay6205 = document.getElementById("overlay6205");
+			var overlay6203C = document.getElementById("overlay6203C");
+			var overlay8201 = document.getElementById("overlay8201");
+			var overlay8203 = document.getElementById("overlay8203");
+			var overlay6208 = document.getElementById("overlay6208");
+			var overlay6207 = document.getElementById("overlay6207");
+			var overlay6202B = document.getElementById("overlay6202B");
+			var overlay6202A = document.getElementById("overlay6202A");
+			var overlay6201D = document.getElementById("overlay6201D");
+			var overlay6201A = document.getElementById("overlay6201A");
+			var overlay6200A = document.getElementById("overlay6200A");
+			var overlay6330 = document.getElementById("overlay6330");
+			var overlay6410 = document.getElementById("overlay6410");
+			var overlay6428 = document.getElementById("overlay6428");
+			var overlay8311 = document.getElementById("overlay8311");
+			var overlay8313 = document.getElementById("overlay8313");
+			var overlay8312A = document.getElementById("overlay8312A");
+			var overlay8312B = document.getElementById("overlay8312B");
 
 
-      overlay6104.addEventListener("click", function() {
-        // オーバーレイ212がクリックされたときの処理
-		displaySchedule(0);
-      });
+			overlay6104.addEventListener("click", function () {
+				// オーバーレイ212がクリックされたときの処理
+				displaySchedule(0);
+			});
 
-	  overlay6103.addEventListener("click", function() {
-        // オーバーレイ211がクリックされたときの処理
-		displaySchedule(1);
-      });
+			overlay6103.addEventListener("click", function () {
+				// オーバーレイ211がクリックされたときの処理
+				displaySchedule(1);
+			});
 
-	  overlay6102.addEventListener("click", function() {
-        // オーバーレイ210がクリックされたときの処理
-		displaySchedule(2);
-      });
+			overlay6102.addEventListener("click", function () {
+				// オーバーレイ210がクリックされたときの処理
+				displaySchedule(2);
+			});
 
-	  overlay6101.addEventListener("click", function() {
-        // オーバーレイ209がクリックされたときの処理
-		displaySchedule(3);
-      });
+			overlay6101.addEventListener("click", function () {
+				// オーバーレイ209がクリックされたときの処理
+				displaySchedule(3);
+			});
 
-	  overlay6100.addEventListener("click", function() {
-        // オーバーレイ208がクリックされたときの処理
-		displaySchedule(4);
-      });
+			overlay6100.addEventListener("click", function () {
+				// オーバーレイ208がクリックされたときの処理
+				displaySchedule(4);
+			});
 
-	  overlay8101.addEventListener("click", function() {
-        // オーバーレイ207がクリックされたときの処理
-		displaySchedule(5);
-      });
+			overlay8101.addEventListener("click", function () {
+				// オーバーレイ207がクリックされたときの処理
+				displaySchedule(5);
+			});
 
-	  overlay6205.addEventListener("click", function() {
-        // オーバーレイ206がクリックされたときの処理
-		displaySchedule(6);
-      });
+			overlay6205.addEventListener("click", function () {
+				// オーバーレイ206がクリックされたときの処理
+				displaySchedule(6);
+			});
 
-	  overlay6203C.addEventListener("click", function() {
-        // オーバーレイ204がクリックされたときの処理
-		displaySchedule(7);
-      });
+			overlay6203C.addEventListener("click", function () {
+				// オーバーレイ204がクリックされたときの処理
+				displaySchedule(7);
+			});
 
-	  overlay8201.addEventListener("click", function() {
-        // オーバーレイ203がクリックされたときの処理
-		displaySchedule(8);
-      });
+			overlay8201.addEventListener("click", function () {
+				// オーバーレイ203がクリックされたときの処理
+				displaySchedule(8);
+			});
 
-	  overlay8203.addEventListener("click", function() {
-        // オーバーレイ201がクリックされたときの処理
-		displaySchedule(9);
-      });
+			overlay8203.addEventListener("click", function () {
+				// オーバーレイ201がクリックされたときの処理
+				displaySchedule(9);
+			});
 
-	  overlay6208.addEventListener("click", function() {
-        // オーバーレイ117がクリックされたときの処理
-		displaySchedule(10);
-      });
+			overlay6208.addEventListener("click", function () {
+				// オーバーレイ117がクリックされたときの処理
+				displaySchedule(10);
+			});
 
-	  overlay6207.addEventListener("click", function() {
-        // オーバーレイ213がクリックされたときの処理
-		displaySchedule(11);
-      });
+			overlay6207.addEventListener("click", function () {
+				// オーバーレイ213がクリックされたときの処理
+				displaySchedule(11);
+			});
 
-	  overlay6202B.addEventListener("click", function() {
-        // オーバーレイ212がクリックされたときの処理
-		displaySchedule(12);
-      });
+			overlay6202B.addEventListener("click", function () {
+				// オーバーレイ212がクリックされたときの処理
+				displaySchedule(12);
+			});
 
-	  overlay6202A.addEventListener("click", function() {
-        // オーバーレイ211がクリックされたときの処理
-		displaySchedule(13);
-      });
+			overlay6202A.addEventListener("click", function () {
+				// オーバーレイ211がクリックされたときの処理
+				displaySchedule(13);
+			});
 
-	  overlay6201D.addEventListener("click", function() {
-        // オーバーレイ210がクリックされたときの処理
-		displaySchedule(14);
-      });
+			overlay6201D.addEventListener("click", function () {
+				// オーバーレイ210がクリックされたときの処理
+				displaySchedule(14);
+			});
 
-	  overlay6201A.addEventListener("click", function() {
-        // オーバーレイ209がクリックされたときの処理
-		displaySchedule(15);
-      });
+			overlay6201A.addEventListener("click", function () {
+				// オーバーレイ209がクリックされたときの処理
+				displaySchedule(15);
+			});
 
-	  overlay6200A.addEventListener("click", function() {
-        // オーバーレイ208がクリックされたときの処理
-		displaySchedule(16);
-      });
+			overlay6200A.addEventListener("click", function () {
+				// オーバーレイ208がクリックされたときの処理
+				displaySchedule(16);
+			});
 
-	  overlay6330.addEventListener("click", function() {
-        // オーバーレイ207がクリックされたときの処理
-		displaySchedule(17);
-      });
+			overlay6330.addEventListener("click", function () {
+				// オーバーレイ207がクリックされたときの処理
+				displaySchedule(17);
+			});
 
-	  overlay6410.addEventListener("click", function() {
-        // オーバーレイ206がクリックされたときの処理
-		displaySchedule(18);
-      });
+			overlay6410.addEventListener("click", function () {
+				// オーバーレイ206がクリックされたときの処理
+				displaySchedule(18);
+			});
 
-	  overlay6428.addEventListener("click", function() {
-        // オーバーレイ204がクリックされたときの処理
-		displaySchedule(19);
-      });
+			overlay6428.addEventListener("click", function () {
+				// オーバーレイ204がクリックされたときの処理
+				displaySchedule(19);
+			});
 
-	  overlay8311.addEventListener("click", function() {
-        // オーバーレイ203がクリックされたときの処理
-		displaySchedule(20);
-      });
+			overlay8311.addEventListener("click", function () {
+				// オーバーレイ203がクリックされたときの処理
+				displaySchedule(20);
+			});
 
-	  overlay8313.addEventListener("click", function() {
-        // オーバーレイ201がクリックされたときの処理
-		displaySchedule(21);
-      });
+			overlay8313.addEventListener("click", function () {
+				// オーバーレイ201がクリックされたときの処理
+				displaySchedule(21);
+			});
 
-	  overlay8312A.addEventListener("click", function() {
-        // オーバーレイ117がクリックされたときの処理
-		displaySchedule(22);
-      });
+			overlay8312A.addEventListener("click", function () {
+				// オーバーレイ117がクリックされたときの処理
+				displaySchedule(22);
+			});
 
-	  overlay8312B.addEventListener("click", function() {
-        // オーバーレイ213がクリックされたときの処理
-		displaySchedule(23);
-      });
-	}
-    function changeColor() {
-      //ここも必要数に応じて増やさなければいけない
-        var overlay6104= document.getElementById("overlay6104");
-	   var overlay6103= document.getElementById("overlay6103");
-	   var overlay6102= document.getElementById("overlay6102");
-	   var overlay6101= document.getElementById("overlay6101");
-	   var overlay6100= document.getElementById("overlay6100");
-	   var overlay8101= document.getElementById("overlay8101");
-	   var overlay6205= document.getElementById("overlay6205");
-	   var overlay6203C= document.getElementById("overlay6203C");
-	   var overlay8201= document.getElementById("overlay8201");
-	   var overlay8203= document.getElementById("overlay8203");
-	   var overlay6208= document.getElementById("overlay6208");
-	   var overlay6207= document.getElementById("overlay6207");
-	   var overlay6202B= document.getElementById("overlay6202B");
-	   var overlay6202A= document.getElementById("overlay6202A");
-	   var overlay6201D= document.getElementById("overlay6201D");
-	   var overlay6201A= document.getElementById("overlay6201A");
-	   var overlay6200A= document.getElementById("overlay6200A");
-	   var overlay6330= document.getElementById("overlay6330");
-	   var overlay6410= document.getElementById("overlay6410");
-	   var overlay6428= document.getElementById("overlay6428");
-	   var overlay8311= document.getElementById("overlay8311");
-	   var overlay8313= document.getElementById("overlay8313");
-	   var overlay8312A= document.getElementById("overlay8312A");
-	   var overlay8312B= document.getElementById("overlay8312B");
+			overlay8312B.addEventListener("click", function () {
+				// オーバーレイ213がクリックされたときの処理
+				displaySchedule(23);
+			});
+		}
+		function changeColor() {
+			//ここも必要数に応じて増やさなければいけない
+			var overlay6104 = document.getElementById("overlay6104");
+			var overlay6103 = document.getElementById("overlay6103");
+			var overlay6102 = document.getElementById("overlay6102");
+			var overlay6101 = document.getElementById("overlay6101");
+			var overlay6100 = document.getElementById("overlay6100");
+			var overlay8101 = document.getElementById("overlay8101");
+			var overlay6205 = document.getElementById("overlay6205");
+			var overlay6203C = document.getElementById("overlay6203C");
+			var overlay8201 = document.getElementById("overlay8201");
+			var overlay8203 = document.getElementById("overlay8203");
+			var overlay6208 = document.getElementById("overlay6208");
+			var overlay6207 = document.getElementById("overlay6207");
+			var overlay6202B = document.getElementById("overlay6202B");
+			var overlay6202A = document.getElementById("overlay6202A");
+			var overlay6201D = document.getElementById("overlay6201D");
+			var overlay6201A = document.getElementById("overlay6201A");
+			var overlay6200A = document.getElementById("overlay6200A");
+			var overlay6330 = document.getElementById("overlay6330");
+			var overlay6410 = document.getElementById("overlay6410");
+			var overlay6428 = document.getElementById("overlay6428");
+			var overlay8311 = document.getElementById("overlay8311");
+			var overlay8313 = document.getElementById("overlay8313");
+			var overlay8312A = document.getElementById("overlay8312A");
+			var overlay8312B = document.getElementById("overlay8312B");
 
-      //
-      var currentTime = new Date().getHours();
-      var currentTime_M = new Date().getMinutes();
-      var currentDay = new Date().getDay();
-      var currentYear = new Date().getFullYear(); // 現在の時間を取
-      //ここから
-      // 配列を定義
-      // CSVファイルを取得
-      
-      var c_time = [
-        {
-          name: 1,
-          start_h: 9,
-          start_m: 20,
-          end_h: 11,
-          end_m: 0
-        },
-        {
-          name: 2,
-          start_h: 11,
-          start_m: 10,
-          end_h: 12,
-          end_m: 50
-        },
-        {
-          name: 3,
-          start: 13,
-          start_m: 40,
-          end_h: 15,
-          end_m: 20
-        },
-        {
-          name: 4,
-          start_h: 15,
-          start_m: 30,
-          end_h: 17,
-          end_m: 10
-        },
-        {
-          name: 5,
-          start_h: 17,
-          start_m: 20,
-          end_h: 19,
-          end_m: 0
-        },
-        {
-          name: 0,
-          start_h: 0,
-          start_m: 0,
-          end_h: 7,
-          end_m: 0
-        }
+			//
+			var currentTime = new Date().getHours();
+			var currentTime_M = new Date().getMinutes();
+			var currentDay = new Date().getDay();
+			var currentYear = new Date().getFullYear(); // 現在の時間を取
+			//ここから
+			// 配列を定義
+			// CSVファイルを取得
 
-      ]
-      var zero_room = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]//ここもzeros関数を使って教室の数から出したい
-      let currentM = currentTime*60+currentTime_M
-      for(var i=0;i < 6;i++){
-        if(currentM >= (c_time[i]['start_h']*60+c_time[i]['start_m']) && (currentM <= c_time[i]['end_h']*60 + c_time[i]['end_m'])){
-          var rec = c_time[i]['name']
-        }
-      }
-      T = currentTime_M % 25 
-      Days = parseInt(T/5)
-      Class_time = T % 5
-      for(i=0;i < 117;i++){//今は手で数えているがlen等を用いてエクセルを用いて数えたい
-        for(j=0;j < 18;j++){
-          //if(csvArray[i][2] == 2 && csvArray[i][1] == currentDay){//
-          if(csvArray[i][2] == Class_time+1 && csvArray[i][1] == Days+1){
-            var tmp = csvArray[i][7]
-            zero_room[tmp] = 1
-          }
-        }
-      }
-      let YOU = ["月","火","水","木","金"]
-      console.log(YOU[Days])
-      console.log(Class_time+1)
-      console.log(currentTime)
-      console.log(currentTime_M )
-      console.log(zero_room)
-      
-      //曜日>>時間>>使用したい教室データ..(321, 325)>>for{if{}}で使いたいインスタンス使用する。それ以外の教室インスタンスは白のオーバーレイを使用
+			var c_time = [
+				{
+					name: 1,
+					start_h: 9,
+					start_m: 20,
+					end_h: 11,
+					end_m: 0
+				},
+				{
+					name: 2,
+					start_h: 11,
+					start_m: 10,
+					end_h: 12,
+					end_m: 50
+				},
+				{
+					name: 3,
+					start: 13,
+					start_m: 40,
+					end_h: 15,
+					end_m: 20
+				},
+				{
+					name: 4,
+					start_h: 15,
+					start_m: 30,
+					end_h: 17,
+					end_m: 10
+				},
+				{
+					name: 5,
+					start_h: 17,
+					start_m: 20,
+					end_h: 19,
+					end_m: 0
+				},
+				{
+					name: 0,
+					start_h: 0,
+					start_m: 0,
+					end_h: 7,
+					end_m: 0
+				}
 
-      // 教室ごとに増やさなければいけない
-      if (zero_room[0] == 1) {
-	 overlay6104.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6104.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[1] == 1) {
-	 overlay6103.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6103.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[2] == 1) {
-	 overlay6102.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6102.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[3] == 1) {
-	 overlay6101.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6101.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[4] == 1) {
-	 overlay6100.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6100.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[5] == 1) {
-	 overlay8101.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8101.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[6] == 1) {
-	 overlay6205.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6205.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[7] == 1) {
-	 overlay6203C.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6203C.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[8] == 1) {
-	 overlay8201.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8201.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[9] == 1) {
-	 overlay8203.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8203.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[10] == 1) {
-	 overlay6208.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6208.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[11] == 1) {
-	 overlay6207.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6207.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[12] == 1) {
-	 overlay6202B.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6202B.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[13] == 1) {
-	 overlay6202A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6202A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[14] == 1) {
-	 overlay6201D.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6201D.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[15] == 1) {
-	 overlay6201A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6201A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[16] == 1) {
-	 overlay6200A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6200A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[17] == 1) {
-	 overlay6330.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6330.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[18] == 1) {
-	 overlay6410.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6410.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[19] == 1) {
-	 overlay6428.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay6428.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[20] == 1) {
-	 overlay8311.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8311.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[21] == 1) {
-	 overlay8313.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8313.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[22] == 1) {
-	 overlay8312A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8312A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
-	if (zero_room[23] == 1) {
-	 overlay8312B.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
-	 } else {;
-	 overlay8312B.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-	 }
+			]
+			var zero_room = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]//ここもzeros関数を使って教室の数から出したい
+			let currentM = currentTime * 60 + currentTime_M
+			for (var i = 0; i < 6; i++) {
+				if (currentM >= (c_time[i]['start_h'] * 60 + c_time[i]['start_m']) && (currentM <= c_time[i]['end_h'] * 60 + c_time[i]['end_m'])) {
+					var rec = c_time[i]['name']
+				}
+			}
+			T = currentTime_M % 25
+			Days = parseInt(T / 5)
+			Class_time = T % 5
+			for (i = 0; i < 117; i++) {//今は手で数えているがlen等を用いてエクセルを用いて数えたい
+				for (j = 0; j < 18; j++) {
+					//if(csvArray[i][2] == 2 && csvArray[i][1] == currentDay){//
+					if (csvArray[i][2] == Class_time + 1 && csvArray[i][1] == Days + 1) {
+						var tmp = csvArray[i][7]
+						zero_room[tmp] = 1
+					}
+				}
+			}
+			let YOU = ["月", "火", "水", "木", "金"]
+			console.log(YOU[Days])
+			console.log(Class_time + 1)
+			console.log(currentTime)
+			console.log(currentTime_M)
+			console.log(zero_room)
 
-    }
-  
-	// 初期表示
-	function initialize() {
-      changeColor();
-      addClickListeners();
-    }
+			//曜日>>時間>>使用したい教室データ..(321, 325)>>for{if{}}で使いたいインスタンス使用する。それ以外の教室インスタンスは白のオーバーレイを使用
 
-	setInterval(initialize, 6000); // 60秒ごとに更新
-	
-  </script>
+			// 教室ごとに増やさなければいけない
+			if (zero_room[0] == 1) {
+				overlay6104.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6104.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[1] == 1) {
+				overlay6103.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6103.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[2] == 1) {
+				overlay6102.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6102.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[3] == 1) {
+				overlay6101.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6101.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[4] == 1) {
+				overlay6100.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6100.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[5] == 1) {
+				overlay8101.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8101.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[6] == 1) {
+				overlay6205.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6205.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[7] == 1) {
+				overlay6203C.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6203C.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[8] == 1) {
+				overlay8201.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8201.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[9] == 1) {
+				overlay8203.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8203.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[10] == 1) {
+				overlay6208.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6208.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[11] == 1) {
+				overlay6207.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6207.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[12] == 1) {
+				overlay6202B.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6202B.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[13] == 1) {
+				overlay6202A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6202A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[14] == 1) {
+				overlay6201D.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6201D.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[15] == 1) {
+				overlay6201A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6201A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[16] == 1) {
+				overlay6200A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6200A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[17] == 1) {
+				overlay6330.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6330.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[18] == 1) {
+				overlay6410.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6410.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[19] == 1) {
+				overlay6428.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay6428.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[20] == 1) {
+				overlay8311.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8311.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[21] == 1) {
+				overlay8313.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8313.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[22] == 1) {
+				overlay8312A.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8312A.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+			if (zero_room[23] == 1) {
+				overlay8312B.style.backgroundColor = "rgba(255, 0, 0, 0.5)";
+			} else {
+				;
+				overlay8312B.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
+			}
+
+		}
+
+		// 初期表示
+		function initialize() {
+			changeColor();
+			addClickListeners();
+		}
+
+		setInterval(initialize, 6000); // 60秒ごとに更新</script>
 </body>
 </html>
